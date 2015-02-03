@@ -12,7 +12,7 @@ import javax.servlet.annotation.WebServlet;
 @WebServlet("/calc")
 @SuppressWarnings("serial")
 public class CalculatorServlet extends GenericServlet {
-	
+	//계산기
 	@Override
 	public void service(
 			ServletRequest request, ServletResponse response)
